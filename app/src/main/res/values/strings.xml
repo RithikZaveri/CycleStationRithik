@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CycleStationRithik</string>
+    <string name="title_activity_station_maps">Map</string>
+    <string name="title_activity_station_map">Map</string>
+</resources>

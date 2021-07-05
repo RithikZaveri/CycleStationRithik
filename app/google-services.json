@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "491701282510",
+    "firebase_url": "https://cyclestationrithik.firebaseio.com",
+    "project_id": "cyclestationrithik",
+    "storage_bucket": "cyclestationrithik.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:491701282510:android:e8f0d71e7a00b19dd9d29f",
+        "android_client_info": {
+          "package_name": "com.example.cyclestationrithik"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "491701282510-ic5cda18r2jktmjtoscup3fb03qjn428.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cyclestationrithik",
+            "certificate_hash": "57a1f865ff71dac78b3ede171fc9afb9d9f4cf64"
+          }
+        },
+        {
+          "client_id": "491701282510-dsmm5v8rnq58bppd4fmt146g9thpukj5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfTXslilQm42bnjuGGIR_C3x8YUkPRKUs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "491701282510-dsmm5v8rnq58bppd4fmt146g9thpukj5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

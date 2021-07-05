@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="5"
+    android:orientation="vertical"
+    tools:context=".Admin.cycle.CycleCustomListView">
+
+    <TextView
+        android:id="@+id/tvAdminCycleViewStation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+
+        android:text="STATION"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/tvAdminCycleViewStatus"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+
+        android:text="STATUS"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/tvAdminCycleViewCycleregno"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+
+        android:text="CYCLE REG. NO."
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/tvAdminCycleViewImageUrl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+
+        android:text="IMAGE URL"
+        android:textSize="30sp"/>
+    <Button
+        android:id="@+id/BtAdminCycleViewDel"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="DELETE CYCLE"
+        android:layout_marginLeft="130dp"
+        android:gravity="center"
+        android:background="@color/colorAccent"
+        android:textSize="20sp"/>
+
+
+
+</LinearLayout>

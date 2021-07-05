@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="7"
+    android:orientation="vertical"
+    tools:context=".Admin.station.StationCustomListView">
+
+    <TextView
+        android:id="@+id/tvAdminStationViewStationName"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+
+        android:text="STATION NAME"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/tvAdminStaionViewOpeningTime"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+
+        android:text="OPENING TIME"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/tvAdminStaionViewClosingTime"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+
+        android:text="CLOSING TIME"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/tvAdminStaionViewConductedBy"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+
+        android:text="CONDUCTED BY"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/tvAdminStaionViewNoOfCycle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+
+        android:text="NO OF CYCLES"
+        android:textSize="25sp"/>
+    <TextView
+        android:id="@+id/tvAdminStaionViewAvailableCycle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+
+        android:text="AVAILABLE CYCLES"
+        android:textSize="25sp"/>
+
+
+    <Button
+        android:id="@+id/BtAdminStationViewDel"
+        android:layout_width="210dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="DELETE STATION"
+        android:layout_marginLeft="100dp"
+        android:gravity="center"
+        android:background="@color/colorAccent"
+        android:textSize="20sp"/>
+
+</LinearLayout>
